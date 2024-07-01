@@ -1,24 +1,17 @@
 //660612151
 //นายปัชนภ รอดกลึง
-
 function arrayStringify(a) {
-  /* Your code here */
-  let b = "";
-
-  for (let i = 0; i < a.length; i++){
-    b += a[i].toString()
-  }
-
-  return b;
-
+    /* Your code here */
+    var b = "";
+    for (var i = 0; i < a.length; i++) {
+        b += a[i].toString();
+    }
+    return b;
 }
-
-const c1 = [1, 2, 3];
-const c2 = [10, 9, 8, 7, 6, 5];
-const c3 = [];
-
+var c1 = [1, 2, 3];
+var c2 = [10, 9, 8, 7, 6, 5];
+var c3 = [];
 console.log(arrayStringify(c1));
 console.log(arrayStringify(c2));
 console.log(arrayStringify(c3));
-
 module.exports = arrayStringify;

@@ -1,5 +1,19 @@
+//660612151
+//นายปัชนภ รอดกลึง
+
 function primeNumber(a) {
   /* Your code here */
+  let d = 2;
+  while (d != a){
+    if(d == 1){
+      return "NO";
+    }
+    if(a%d == 0){
+        return "NO";
+    }
+    d++;
+  }
+  return "YES";
 }
 
 const d1 = 10;

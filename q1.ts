@@ -1,5 +1,20 @@
+//660612151
+//นายปัชนภ รอดกลึง
+
 function typeChecker(a, b) {
   /* Your code here */
+  var typeA = typeof(a);
+  var typeB = typeof(b);
+
+  if (typeA !== typeB) {
+      return "NOT MATCHED";
+  }
+  else if (typeA && typeB === 'string') {
+      return "I LOVE YOU";
+  }
+  else {
+      return a + b;
+  }
 }
 
 //Test cases
